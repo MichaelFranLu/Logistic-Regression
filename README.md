@@ -8,6 +8,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelFranLu/Logistic-Regression/master?labpath=3-Logistische_Regression_Projekt-Loesung.ipynb)
 
 **Dokumentation - Logistische Regression**
+
 In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitteln, ob ein Anwender auf eine Werbung auf einer Internetseite geklickt hat oder nicht. Die Vorhersage stützt sich auf Anwenderinformationen, die in einer Datensammlung gespeichert sind. Diese Sammlung umfasst die folgenden Attribute:
 - 'Daily Time Spent on Site': Zeit auf der Webseite in Minuten
 - 'Age': Alter in Jahren
