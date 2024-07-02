@@ -27,7 +27,7 @@ In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitt
 - matplotlib
 - seaborn
 
-**Daten einlesen "ad_data"**
+**Daten einlesen "ad_data.csv"**
 
 **Explorative Datensanalyse**
 In diesem Teil wird die explorative Datenanalyse unter Verwendung der Seaborn-Bibliothek ausgeführt. Es werden unterschiedliche Diagramme generiert, um Zusammenhänge und Muster zu entdecken:
