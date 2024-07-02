@@ -49,5 +49,6 @@ In diesem Teil werden die Daten in Trainings- und Testsets aufgeteilt, um das lo
 - Erstellen eines logistisches Regressionsmodell und auf das Trainingssatz angepasst.
 
 **Vorhersagen und Auswertung**
+
 Das Hauptziel dieses Projekts besteht darin, ein Modell zu erstellen, das auf der Grundlage von Nutzereigenschaften vorhersagen kann, ob ein Benutzer auf eine Werbeanzeige klicken wird oder nicht. 
 Der Klassifizierungsbericht am Ende gibt Aufschluss über die Effizienz des Modells.
