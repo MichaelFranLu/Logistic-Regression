@@ -7,7 +7,9 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelFranLu/Logistic-Regression/master?labpath=3-Logistische_Regression_Projekt-Loesung.ipynb)
 
+
 **Dokumentation - Logistische Regression**
+
 In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitteln, ob ein Anwender auf eine Werbung auf einer Internetseite geklickt hat oder nicht. Die Vorhersage stützt sich auf Anwenderinformationen, die in einer Datensammlung gespeichert sind. Diese Sammlung umfasst die folgenden Attribute:
 - 'Daily Time Spent on Site': Zeit auf der Webseite in Minuten
 - 'Age': Alter in Jahren
@@ -20,6 +22,7 @@ In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitt
 - 'Timestamp': Zeit zu der der Nutzer auf die Werbung geklickt oder das Fenster geschlossen hat
 - 'Clicked on Ad': Ob der Nutzer gelickt hat (1) oder nicht (0)
 
+
 **Benötigte Libraries instalieren**
 - pandas
 - numpy
@@ -28,7 +31,9 @@ In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitt
 
 **Daten einlesen "ad_data.csv"**
 
+
 **Explorative Datensanalyse**
+
 In diesem Teil wird die explorative Datenanalyse unter Verwendung der Seaborn-Bibliothek ausgeführt. Es werden unterschiedliche Diagramme generiert, um Zusammenhänge und Muster zu entdecken:
 - Grafik: Alter (Age): Verteilung der Altersgruppen
 - Jointplot: Darstellung Beziehung "Area Income" mit "Age"
@@ -36,7 +41,9 @@ In diesem Teil wird die explorative Datenanalyse unter Verwendung der Seaborn-Bi
 - Jointplot: Darstellung Beziehung "Daily Time Spent On Site" gegen "Daily Internet Usage"
 - Pairplot: "Clicked on Ad" als Hue um die Aspekte des Plots basierend auf den Werten einer spezifischen Variable zu färben.
 
+
 **Logistische Regression**
+
 In diesem Teil werden die Daten in Trainings- und Testsets aufgeteilt, um das logistisches Regressionsmodell zu trainieren. Die ausgewählten Merkmale sind "Daily Time Spent on Site", "Age", "Area Income", "Daily Internet Usage" und "Male". Zielvariable ist "Clicked on Ad".
 - Mit der Methode "train_test_split" werdem die Daten aufgeteilt.
 - Erstellen eines logistisches Regressionsmodell und auf das Trainingssatz angepasst.
