@@ -18,6 +18,8 @@ Ausführen in Google Colab ebenfalls möglich & performatnter:
 </a>
 
 
+
+
 **Dokumentation - Logistische Regression**
 
 In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitteln, ob ein Anwender auf eine Werbung auf einer Internetseite geklickt hat oder nicht. Die Vorhersage stützt sich auf Anwenderinformationen, die in einer Datensammlung gespeichert sind. Diese Sammlung umfasst die folgenden Attribute:
