@@ -1,18 +1,18 @@
 # Logistic-Regression
 
-**Anleitung zum ausführen des Notebooks:**
+**Anleitung zum Ausführen des Notebooks:**
 1. Klicken Sie auf das MyBinder Batch ↓
-2. Warten Sie bis sich das Notebook geöffnet hat (bis zu 15min)
+2. Warten Sie bis sich das Notebook geöffnet hat (kann bis zu 15 Minuten dauern)
 3. Das Notebook wird direkt aufgerufen und kann durch verwenden des Play-Button schrittweise ausgeführt werden
 
  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MichaelFranLu/Logistic-Regression/master?labpath=3-Logistische_Regression_Projekt-Loesung.ipynb)
 
 
 **Update:**
-Ausführen in Google Colab ebenfalls möglich & performatnter:
+Ausführen in Google Colab ebenfalls möglich & performanter:
 1. Klicken Sie auf den Google Colab Batch ↓
-2. Warten Sie bis sich das Notebook geöffnet hat (maximal 10sek)
-3. Das Notebook wird direkt aufgerufen und kann durch verwenden des Play-Button schrittweise ausgeführt werden
+2. Warten Sie bis sich das Notebook geöffnet hat (maximal 10 Sekunden)
+3. Das Notebook wird direkt aufgerufen und kann durch Verwenden des Play-Button schrittweise ausgeführt werden
 
 <a target="_blank" href="https://colab.research.google.com/github/MichaelFranLu/Logistic-Regression/blob/main/3-Logistische_Regression_Projekt-Loesung.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -24,16 +24,16 @@ Ausführen in Google Colab ebenfalls möglich & performatnter:
 **Dokumentation - Logistische Regression**
 
 In dieser Aufgabe wird ein logistisches Regressionsmodell erstellt, um zu ermitteln, ob ein Anwender auf eine Werbung auf einer Internetseite geklickt hat oder nicht. Die Vorhersage stützt sich auf Anwenderinformationen, die in einer Datensammlung gespeichert sind. Diese Sammlung umfasst die folgenden Attribute:
-- 'Daily Time Spent on Site': Zeit auf der Webseite in Minuten
+- 'Daily Time Spent on Site': Zeit die täglich auf der Webseite verbracht wurde in Minuten
 - 'Age': Alter in Jahren
-- 'Area Income': Durchschnittliches Einkommen der Region des Nutzers
+- 'Area Income': Durchschnittliches Einkommen in der Region des Nutzers
 - 'Daily Internet Usage': Durchschnittliche Minutenzahl die der Nutzer täglich im Internet ist
 - 'Ad Topic Line': Überschrift der Werbung
 - 'City': Stadt des Nutzers
-- 'Male': Ob der Nutzer männlich ist (1) oder nicht (0)
+- 'Male': Angabe, ob der Nutzer männlich ist (1) oder nicht (0)
 - 'Country': Land des Nutzers
 - 'Timestamp': Zeit zu der der Nutzer auf die Werbung geklickt oder das Fenster geschlossen hat
-- 'Clicked on Ad': Ob der Nutzer gelickt hat (1) oder nicht (0)
+- 'Clicked on Ad': Angabe, ob der Nutzer gelickt hat (1) oder nicht (0)
 
 
 **Benötigte Libraries instalieren**
